@@ -1,22 +1,29 @@
 /* line 1, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
 body {
-  background: #555; }
+  background: #555;
+  margin: 0; }
 
-/* line 5, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
+/* line 6, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
 .container header {
   background: orange;
   height: 100px;
-  padding: 20px; }
+  padding: 20px;
+  position: fixed;
+  width: 100%; }
 
-/* line 10, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
+/* line 13, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
 .container footer {
   background: orange;
   height: 50px;
-  padding: 20px; }
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
 
-/* line 15, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
+/* line 21, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
 .container main {
-  height: 400px;
+  padding-top: 140px;
+  height: 900px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -24,19 +31,19 @@ body {
   align-content: stretch;
   align-items: stretch; }
 
-/* line 25, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
+/* line 32, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
 .container .sidebar1 {
-  width: 15%;
+  width: 20%;
   background: yellow; }
 
-/* line 30, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
+/* line 37, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
 .container .text {
   width: 60%;
   background: blue; }
 
-/* line 34, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
+/* line 41, C:/Users/zaven/Desktop/webbutveckling2/flexbox/sass/style.sass */
 .container .sidebar2 {
-  width: 15%;
+  width: 20%;
   background: yellow; }
 
 /*# sourceMappingURL=style.css.map */
